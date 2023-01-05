@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-container {
+    background-image: url("Urban-Fashion-Img/background.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+/*************Start Navbar***************/
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    margin: auto;
+}
+
+.navbar .logo{
+    width: 160px;
+   cursor: pointer;
+}
+
+.navbar .cart {
+    width: 40px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.navbar .cart:hover {
+    transform: scale(1.08);
+}
+
+.navbar nav  {
+    flex: 1;
+    padding-left: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color:#f38cd0
+}
+/*************End Navbar***************/
+
+
+/*************Start content************/
+.content {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.content button {
+    padding: 10px 20px;
+    color: #fff;
+    background-image: linear-gradient(45deg,#94aafc,#f58ed5);
+    border:none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    box-sizing: border-box;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    transition: 0.3s;
+}
+
+.content button:hover {
+        transform: scale(1.06);
+}
+
+.content h1 {
+    color: #232d60;
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+.content p {
+    color: #6a7199;
+    font-size: 20px;
+}
+
+.arrow-icons{
+    display: flex;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.arrow-icons img{
+    width: 40px;
+    margin-right: 25px;
+    transition: 0.3s;
+}
+
+.arrow-icons img:hover {
+    transform: scale(1.09);
+}
+/*************End  content**************/
+
+
+/*************Start image***************/
+.feature-img {
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 260px;
+}
+/*************End image***************/
+
+
+/*************Start social-links******/
+.social-links {
+    margin-top: 230px;
+    transform: rotate(270deg);
+    transform-origin: 0 0;
+    /*position: absolute;*/
+    /*left: -80px;*/
+    /*bottom: 180px;*/
+}
+
+.social-links a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: #6a7199;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #d8f2ff;
+}
+/*************End social-links******/
+
+
